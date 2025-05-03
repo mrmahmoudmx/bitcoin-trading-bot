@@ -16,14 +16,22 @@ class RiskManager:
         Returns: Quantity to trade
         """
         try:
-            # Calculate maximum position size based on risk percentage
-            max_risk_amount = balance * self.max_trade_risk
-            
-            # Calculate position size in base currency (BTC)
-            position_size = max_risk_amount / current_price
+            if config.SIMULATION_MODE:
+                # In simulation mode, use a fixed percentage of the balance
+                trade_amount = balance * 0.1  # Use 10% of balance per trade
+                position_size = trade_amount / current_price
+            else:
+                # Calculate maximum position size based on risk percentage
+                max_risk_amount = balance * self.max_trade_risk
+                position_size = max_risk_amount / current_price
             
             # Round to appropriate decimal places (Binance requires specific precision)
             position_size = round(position_size, 6)  # Adjust precision as needed
+            
+            # Ensure minimum trade size
+            min_trade_size = 0.001  # Minimum trade size in BTC
+            if position_size < min_trade_size:
+                position_size = min_trade_size
             
             self.log.info(f"Calculated position size: {position_size} BTC")
             return position_size
@@ -56,13 +64,19 @@ class RiskManager:
         Returns: (bool) Whether the trade should proceed
         """
         try:
-            # Check if we have sufficient balance
-            min_trade_amount = 0.0001  # Minimum trade amount in BTC
             position_size = self.calculate_position_size(balance, current_price)
             
-            if position_size < min_trade_amount:
-                self.log.warning(f"Trade rejected: Position size {position_size} below minimum {min_trade_amount}")
-                return False
+            if config.SIMULATION_MODE:
+                # In simulation mode, only check if we have any balance
+                if balance <= 0:
+                    self.log.warning("Trade rejected: Insufficient balance")
+                    return False
+            else:
+                # In live mode, check minimum trade amount
+                min_trade_amount = 0.001  # Minimum trade amount in BTC
+                if position_size < min_trade_amount:
+                    self.log.warning(f"Trade rejected: Position size {position_size} below minimum {min_trade_amount}")
+                    return False
 
             # Check if we're within daily loss limit
             if self.check_daily_loss_limit():
@@ -74,7 +88,7 @@ class RiskManager:
                 self.log.warning("Trade rejected: Market volatility too high")
                 return False
 
-            self.log.info("Trade validation passed")
+            self.log.info(f"Trade validation passed - Position size: {position_size} BTC")
             return True
 
         except Exception as e:
