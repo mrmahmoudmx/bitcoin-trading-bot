@@ -1,0 +1,61 @@
+2025-05-03 18:09:28,473 - TradingBot - INFO - Logger initialized
+2025-05-03 18:09:28,967 - TradingBot - INFO - Initializing Trading Bot...
+2025-05-03 18:09:28,967 - TradingBot - INFO - Initialized in simulation mode - no API connection required
+2025-05-03 18:09:28,968 - TradingBot - INFO - Database initialized successfully
+2025-05-03 18:09:28,968 - TradingBot - INFO - Trading Bot initialized successfully
+2025-05-03 18:09:28,968 - TradingBot - INFO - Starting Trading Bot...
+2025-05-03 18:09:28,968 - TradingBot - INFO - Running in simulation mode - API connection test skipped
+2025-05-03 18:09:28,975 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:09:28,977 - TradingBot - INFO - Current price: $29999.42 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:09:28,978 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:10:29,002 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:10:29,004 - TradingBot - INFO - Current price: $29972.21 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:10:29,005 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:10:29,005 - TradingBot - INFO - 
+==================================================
+2025-05-03 18:10:29,005 - TradingBot - INFO - PERFORMANCE SUMMARY
+2025-05-03 18:10:29,006 - TradingBot - INFO - ==================================================
+2025-05-03 18:10:29,006 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:10:29,006 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:10:29,007 - TradingBot - INFO - Current Balance: $10000.00
+2025-05-03 18:10:29,007 - TradingBot - INFO - Current BTC Price: $29989.12
+2025-05-03 18:10:29,007 - TradingBot - INFO - Total Trades: 0
+2025-05-03 18:10:29,007 - TradingBot - INFO - Win Rate: 0.0%
+2025-05-03 18:10:29,007 - TradingBot - INFO - Total PnL: $0.00
+2025-05-03 18:10:29,007 - TradingBot - INFO - Current Position: None
+2025-05-03 18:10:29,007 - TradingBot - INFO - ==================================================
+
+2025-05-03 18:11:29,046 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:11:29,048 - TradingBot - INFO - Current price: $30007.09 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:11:29,049 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:11:29,050 - TradingBot - INFO - 
+==================================================
+2025-05-03 18:11:29,050 - TradingBot - INFO - PERFORMANCE SUMMARY
+2025-05-03 18:11:29,050 - TradingBot - INFO - ==================================================
+2025-05-03 18:11:29,050 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:11:29,051 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:11:29,051 - TradingBot - INFO - Current Balance: $10000.00
+2025-05-03 18:11:29,051 - TradingBot - INFO - Current BTC Price: $30004.05
+2025-05-03 18:11:29,051 - TradingBot - INFO - Total Trades: 0
+2025-05-03 18:11:29,051 - TradingBot - INFO - Win Rate: 0.0%
+2025-05-03 18:11:29,051 - TradingBot - INFO - Total PnL: $0.00
+2025-05-03 18:11:29,051 - TradingBot - INFO - Current Position: None
+2025-05-03 18:11:29,051 - TradingBot - INFO - ==================================================
+
+2025-05-03 18:12:29,070 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:12:29,073 - TradingBot - INFO - Current price: $30016.53 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:12:29,074 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:12:29,074 - TradingBot - INFO - 
+==================================================
+2025-05-03 18:12:29,074 - TradingBot - INFO - PERFORMANCE SUMMARY
+2025-05-03 18:12:29,074 - TradingBot - INFO - ==================================================
+2025-05-03 18:12:29,074 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:12:29,075 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:12:29,076 - TradingBot - INFO - Current Balance: $10000.00
+2025-05-03 18:12:29,076 - TradingBot - INFO - Current BTC Price: $30016.36
+2025-05-03 18:12:29,076 - TradingBot - INFO - Total Trades: 0
+2025-05-03 18:12:29,076 - TradingBot - INFO - Win Rate: 0.0%
+2025-05-03 18:12:29,076 - TradingBot - INFO - Total PnL: $0.00
+2025-05-03 18:12:29,076 - TradingBot - INFO - Current Position: None
+2025-05-03 18:12:29,076 - TradingBot - INFO - ==================================================
+
