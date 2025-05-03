@@ -1,13 +1,14 @@
 import os
 
 # Binance API credentials
-BINANCE_API_KEY = os.getenv("BINANCE_API_KEY")
-BINANCE_API_SECRET = os.getenv("BINANCE_API_SECRET")
+BINANCE_API_KEY = os.getenv("BINANCE_API_KEY", "test_key")
+BINANCE_API_SECRET = os.getenv("BINANCE_API_SECRET", "test_secret")
 
 # Trading configuration
 TARGET_SYMBOL = "BTCUSDT"
 TRADE_AMOUNT = 0.001  # Trade 0.001 BTC per signal
-SIMULATION_MODE = True  # Set to False for live trading
+SIMULATION_MODE = True  # Always start in simulation mode for safety
+SIMULATION_BALANCE = 10000  # Mock balance in USDT for simulation mode
 
 # Strategy parameters
 SHORT_WINDOW = 5  # 5-period moving average
