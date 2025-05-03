@@ -1,0 +1,9 @@
+2025-05-03 18:03:18,294 - TradingBot - INFO - Logger initialized
+2025-05-03 18:03:18,769 - TradingBot - INFO - Initializing Trading Bot...
+2025-05-03 18:03:18,769 - TradingBot - INFO - Initialized in simulation mode - no API connection required
+2025-05-03 18:03:18,786 - TradingBot - INFO - Database initialized successfully
+2025-05-03 18:03:18,786 - TradingBot - INFO - Trading Bot initialized successfully
+2025-05-03 18:03:18,787 - TradingBot - INFO - Starting Trading Bot...
+2025-05-03 18:03:18,787 - TradingBot - INFO - Running in simulation mode - API connection test skipped
+2025-05-03 18:03:18,787 - TradingBot - ERROR - Unexpected error getting historical data: name 'random' is not defined
+2025-05-03 18:03:18,788 - TradingBot - ERROR - Failed to get historical data
