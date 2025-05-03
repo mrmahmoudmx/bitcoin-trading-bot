@@ -1,0 +1,16 @@
+2025-05-03 18:04:07,080 - TradingBot - INFO - Logger initialized
+2025-05-03 18:04:07,571 - TradingBot - INFO - Initializing Trading Bot...
+2025-05-03 18:04:07,571 - TradingBot - INFO - Initialized in simulation mode - no API connection required
+2025-05-03 18:04:07,571 - TradingBot - INFO - Database initialized successfully
+2025-05-03 18:04:07,572 - TradingBot - INFO - Trading Bot initialized successfully
+2025-05-03 18:04:07,572 - TradingBot - INFO - Starting Trading Bot...
+2025-05-03 18:04:07,572 - TradingBot - INFO - Running in simulation mode - API connection test skipped
+2025-05-03 18:04:07,580 - TradingBot - INFO - Bullish crossover detected at price 30568.929778391146
+2025-05-03 18:04:07,580 - TradingBot - INFO - Generated signal: BUY
+2025-05-03 18:04:07,580 - TradingBot - INFO - SIMULATION: Using mock balance
+2025-05-03 18:04:07,580 - TradingBot - INFO - Calculated position size: 1e-06 BTC
+2025-05-03 18:04:07,580 - TradingBot - WARNING - Trade rejected: Position size 1e-06 below minimum 0.0001
+2025-05-03 18:04:07,580 - TradingBot - WARNING - Trade validation failed
+2025-05-03 18:04:07,581 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:05:07,640 - TradingBot - INFO - Generated signal: HOLD
+2025-05-03 18:05:07,641 - TradingBot - INFO - Retrieved 0 trade records
