@@ -1,0 +1,16 @@
+2025-05-03 18:07:23,160 - TradingBot - INFO - Logger initialized
+2025-05-03 18:07:23,642 - TradingBot - INFO - Initializing Trading Bot...
+2025-05-03 18:07:23,643 - TradingBot - INFO - Initialized in simulation mode - no API connection required
+2025-05-03 18:07:23,643 - TradingBot - INFO - Database initialized successfully
+2025-05-03 18:07:23,643 - TradingBot - INFO - Trading Bot initialized successfully
+2025-05-03 18:07:23,643 - TradingBot - INFO - Starting Trading Bot...
+2025-05-03 18:07:23,643 - TradingBot - INFO - Running in simulation mode - API connection test skipped
+2025-05-03 18:07:23,650 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:07:23,652 - TradingBot - INFO - Current price: $30002.57 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:07:23,653 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:08:23,720 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:08:23,722 - TradingBot - INFO - Current price: $29980.85 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:08:23,723 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:09:23,790 - TradingBot - INFO - SIMULATION: Using mock balance of 10000 USDT
+2025-05-03 18:09:23,792 - TradingBot - INFO - Current price: $30001.86 | Balance: $10000.00 | Signal: HOLD
+2025-05-03 18:09:23,793 - TradingBot - INFO - Retrieved 0 trade records
