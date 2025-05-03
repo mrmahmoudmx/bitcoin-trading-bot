@@ -1,0 +1,11 @@
+2025-05-03 18:06:03,365 - TradingBot - INFO - Logger initialized
+2025-05-03 18:06:03,842 - TradingBot - INFO - Initializing Trading Bot...
+2025-05-03 18:06:03,843 - TradingBot - INFO - Initialized in simulation mode - no API connection required
+2025-05-03 18:06:03,843 - TradingBot - INFO - Database initialized successfully
+2025-05-03 18:06:03,843 - TradingBot - INFO - Trading Bot initialized successfully
+2025-05-03 18:06:03,843 - TradingBot - INFO - Starting Trading Bot...
+2025-05-03 18:06:03,843 - TradingBot - INFO - Running in simulation mode - API connection test skipped
+2025-05-03 18:06:03,852 - TradingBot - INFO - Generated signal: HOLD
+2025-05-03 18:06:03,853 - TradingBot - INFO - Retrieved 0 trade records
+2025-05-03 18:07:03,922 - TradingBot - INFO - Generated signal: HOLD
+2025-05-03 18:07:03,923 - TradingBot - INFO - Retrieved 0 trade records
